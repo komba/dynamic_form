@@ -29,21 +29,13 @@ Gem::Specification.new do |s|
      "lib/action_view/locale/en.yml",
      "lib/active_model/dynamic_errors.rb",
      "lib/active_model/locale/en.yml",
-     "lib/dynamic_form.rb",
-     "test/dynamic_form_i18n_test.rb",
-     "test/dynamic_form_test.rb",
-     "test/test_helper.rb"
+     "lib/dynamic_form.rb"
   ]
   s.homepage = %q{http://codaset.com/joelmoss/dynamic-form}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{DynamicForm holds a few helper methods to help you deal with your Rails3 models}
-  s.test_files = [
-    "test/dynamic_form_i18n_test.rb",
-     "test/dynamic_form_test.rb",
-     "test/test_helper.rb"
-  ]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
